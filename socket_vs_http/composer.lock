@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "47ba22966b0aad2e6368fc0e21018347",
+    "packages": [
+        {
+            "name": "prodigyview/prodigyview",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ProdigyView-Toolkit/prodigyview.git",
+                "reference": "77f726149374f49e5c8ea460dd5eb18da7189f3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ProdigyView-Toolkit/prodigyview/zipball/77f726149374f49e5c8ea460dd5eb18da7189f3a",
+                "reference": "77f726149374f49e5c8ea460dd5eb18da7189f3a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "^6.3",
+                "phpunit/php-code-coverage": "^6.1",
+                "phpunit/phpunit": "^7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "prodigyview\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Devin Dixon",
+                    "email": "ddixon@prodigyview.com",
+                    "homepage": "http://www.prodigyview.com",
+                    "role": "Entrepreneur & Developer"
+                }
+            ],
+            "description": "Complete PHP Toolkit",
+            "homepage": "https://github.com/ProdigyView-Toolkit/prodigyview",
+            "keywords": [
+                "mvc",
+                "php"
+            ],
+            "time": "2019-01-06T20:12:56+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "prodigyview/prodigyview": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
